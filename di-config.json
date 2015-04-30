@@ -1,0 +1,93 @@
+{
+    "app-install": {
+        "repository": [
+            {
+                "file": {
+                    "filename": "insurModel.rData",
+                    "directory": "example-rbroker-basics",
+                    "descr": "Uploaded from DeployR CLI."
+                },
+                "permissions": {
+                    "restricted": null,
+                    "shared": true,
+                    "published": false
+                }
+            },
+            {
+                "file": {
+                    "filename": "rtScore.R",
+                    "directory": "example-rbroker-basics",
+                    "descr": "Uploaded from DeployR CLI."
+                },
+                "permissions": {
+                    "restricted": null,
+                    "shared": true,
+                    "published": false
+                }
+            },
+            {
+                "file": {
+                    "filename": "5SecondNoOp.R",
+                    "directory": "example-rbroker-basics",
+                    "descr": "Uploaded from DeployR CLI."
+                },
+                "permissions": {
+                    "restricted": null,
+                    "shared": false,
+                    "published": true
+                }
+            }
+        ]
+    },
+    "app-run": {
+        "requireAuthentication": true,
+        "tutorial": {
+            "help": "https://github.com/deployr/java-example-rbroker-basics",
+            "topics": [
+                {
+                    "topic": "Discrete Task Broker",
+                    "menu": [
+                        {
+                            "item": "Discrete Task Broker Task Blocking",
+                            "args": "com.revo.deployr.tutorial.discrete.DiscreteBlocking"
+                        },
+                        {
+                            "item": "Discrete Task Broker Task Polling",
+                            "args": "com.revo.deployr.tutorial.discrete.DiscretePolling"
+                        },
+                        {
+                            "item": "Discrete Task Broker Task Async Callback",
+                            "args": "com.revo.deployr.tutorial.discrete.DiscreteAsynchronous"
+                        },
+                        {
+                            "item": "Discrete Application Profiling",
+                            "args": "com.revo.deployr.tutorial.discrete.DiscreteProfiling"
+                        },
+                        {
+                            "item": "Discrete Application Simulation",
+                            "args": "com.revo.deployr.tutorial.discrete.DiscreteSimulation"
+                        }
+                    ]
+                },
+                {
+                    "topic": "Pooled Task Broker",
+                    "menu": [
+                        {
+                            "item": "Pooled Task Broker Application Simulation",
+                            "args": "com.revo.deployr.tutorial.pooled.PooledSimulation"
+                        }
+                    ]
+                },
+                {
+                    "topic": "Background Task Broker",
+                    "menu": [
+                        {
+                            "item": "Background Task Broker Basics",
+                            "args": "com.revo.deployr.tutorial.background.BackgroundBasics"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
