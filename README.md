@@ -1,7 +1,7 @@
 DeployR Java RBroker Framework Basics
 =====================================
 
-The following tutorial demonstrates the basic programming model and capabilities of the RBroker Framework. Each example makes concrete the ideas introduced by the [Quick Start Tutorial](http://deployr.revolutionanalytics.com/documents/dev/rbroker) for developers using the framework. 
+The following tutorial demonstrates the basic programming model and capabilities of the RBroker Framework. Each example makes concrete the ideas introduced by the [Quick Start Tutorial](https://msdn.microsoft.com/en-us/microsoft-r/deployr-rbroker-framework) for developers using the framework. 
 
 - [About: RBroker Framework](#about-rbroker-framework)
 - [Tutorial: Discrete Task Broker](#tutorial-discrete-task-broker)
@@ -12,14 +12,14 @@ The following tutorial demonstrates the basic programming model and capabilities
 
 ### About: RBroker Framework
 
-The RBroker Framework is the simplest way to integrate DeployR-enabled analytics Web services inside any [Java, JavaScript or .NET](http://deployr.revolutionanalytics.com/docanddown/#rbroker) application.
+The RBroker Framework is the simplest way to integrate DeployR-enabled analytics Web services inside any [Java, JavaScript or .NET](https://msdn.microsoft.com/en-us/microsoft-r/deployr-rbroker-framework) application.
 
 Further information detailing core features of the framework can be found here:
 
-1. [Building Blocks: RBroker, RTask, RTaskResult](http://deployr.revolutionanalytics.com/documents/dev/rbroker/#blocks)
-2. [Runtime Options: Discrete, Pooled, Background](http://deployr.revolutionanalytics.com/documents/dev/rbroker/#runtimes)
-3. [Client Application Simulations](http://deployr.revolutionanalytics.com/documents/dev/rbroker/#simulation)
-4. [Client Application Profiling](http://deployr.revolutionanalytics.com/documents/dev/rbroker/#profiling)
+1. [Building Blocks: RBroker, RTask, RTaskResult](https://msdn.microsoft.com/en-us/microsoft-r/deployr-rbroker-framework#basic-building-blocks)
+2. [Runtime Options: Discrete, Pooled, Background](https://msdn.microsoft.com/en-us/microsoft-r/deployr-rbroker-framework#rbroker-runtime-options)
+3. [Client Application Simulations](https://msdn.microsoft.com/en-us/microsoft-r/deployr-rbroker-framework#client-application-simulations)
+4. [Client Application Profiling](https://msdn.microsoft.com/en-us/microsoft-r/deployr-rbroker-framework#client-application-profiling)
 
 
 
@@ -49,15 +49,15 @@ The example provided in this tutorial demonstrates the basic mechanisms when wor
 
 ### Tutorial: Running The Examples
 
-Use the [DeployR CLI](https://github.com/deployr/deployr-cli) to download and run the java-example-rbroker-basics examples.
+Use the [DeployR CLI](https://github.com/microsoft/deployr-cli) to download and run the java-example-rbroker-basics examples.
 
 ## License ##
 
-Copyright (C) 2010-2015 by Revolution Analytics Inc.
+Copyright (C) 2010-2016, Microsoft Corporation
 
 This program is licensed to you under the terms of Version 2.0 of the
 Apache License. This program is distributed WITHOUT
 ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING THOSE OF NON-INFRINGEMENT,
 MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0) for more 
-details.
+details. 

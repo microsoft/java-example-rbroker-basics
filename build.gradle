@@ -4,9 +4,9 @@ apply plugin: 'application'
 sourceCompatibility = "1.6"
 targetCompatibility = "1.6"
 
-applicationDefaultJvmArgs = [ "-Dprotocol=http://localhost:7400/deployr",
+applicationDefaultJvmArgs = [ "-Dprotocol=http://localhost:8050/deployr",
                               "-Dusername=testuser",
-                              "-Dpassword=changeme",
+                              "-Dpassword=TESTUSER_PASSWORD",
                               "-Dallow.SelfSignedSSLCert=false"]
 
 repositories {
@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    compile "com.revolutionanalytics.deployr:jRBroker:7.4.7"
+    compile "com.microsoft:jRBroker:8.0.5"
     compile "commons-io:commons-io:2.4"
 }
 
@@ -55,7 +55,7 @@ tasks.run.dependsOn argsOverride
 
 jar {
     baseName = 'java-example-rbroker-basics'
-    version = '7.4.0'
+    version = '8.0.5'
 }
 
 task execute(type: JavaExec) {

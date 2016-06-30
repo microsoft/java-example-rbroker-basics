@@ -42,7 +42,7 @@
     "app-run": {
         "requireAuthentication": true,
         "tutorial": {
-            "help": "https://github.com/deployr/java-example-rbroker-basics",
+            "help": "https://github.com/microsoft/java-example-rbroker-basics",
             "topics": [
                 {
                     "topic": "Discrete Task Broker",
